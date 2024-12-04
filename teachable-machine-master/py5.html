@@ -4,16 +4,10 @@
 <script src="https://cdn.jsdelivr.net/npm/ml5@latest/dist/ml5.min.js"></script>
 <script type="text/javascript">
   let classifier;
-  // Model URL
   let imageModelURL = './my_model/';
-  
-  // Video
   let video;
   let flippedVideo;
-  // To store the classification
   let label = "";
-
-  // Load the model first
   function preload() {
     classifier = ml5.imageClassifier(imageModelURL + 'model.json');
   }
@@ -57,8 +51,6 @@
       console.error(error);
       return;
     }
-    // The results are in an array ordered by confidence.
-    // console.log(results[0]);
     label = results[0].label;
     // Classifiy again!
     classifyVideo();
