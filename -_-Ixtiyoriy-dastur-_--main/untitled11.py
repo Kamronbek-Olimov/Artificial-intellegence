@@ -1,16 +1,16 @@
 def mashina_narxi(nomi, turi, rangi):
-    if nomi.lower() == "malibu":
-        if turi.lower() == "sedan":
-            return f"Malibu {rangi.capitalize()} sedan narxi: 35,000$"
+    if nomi.lower() == "Infinity":
+        if turi.lower() == "gle":
+            return f"Infinity {rangi.capitalize()} gle narxi: 40,000$"
     elif nomi.lower() == "lacetti":
         if turi.lower() == "sedan":
             return f"Lacetti {rangi.capitalize()} sedan narxi: 15,000$"
     elif nomi.lower() == "cobalt":
         if turi.lower() == "sedan":
             return f"Cobalt {rangi.capitalize()} sedan narxi: 12,000$"
-    elif nomi.lower() == "gentra":
+    elif nomi.lower() == "BMW":
         if turi.lower() == "sedan":
-            return f"Gentra {rangi.capitalize()} sedan narxi: 13,000$"
+            return f"BMW {rangi.capitalize()} sedan narxi: 45,000$"
     elif nomi.lower() == "captiva":
         if turi.lower() == "suv":
             return f"Captiva {rangi.capitalize()} SUV narxi: 40,000$"

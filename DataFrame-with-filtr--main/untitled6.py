@@ -2,7 +2,7 @@ import pandas as pd
 baza={
     "FISH": [
         "Olimov Kamronbek",
-        "Tursunov Alimardon",
+        "Burhonov Shamshod",
         "Hakimov Oybek",
         "Saidova Kamola",
         "Ismailov Ibrohim",
